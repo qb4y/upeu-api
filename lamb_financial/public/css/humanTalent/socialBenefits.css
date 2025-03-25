@@ -1,0 +1,101 @@
+body {
+    margin-bottom:13mm;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-de-under {
+    text-decoration: underline;
+}
+.bold{
+    font-weight: bold;
+}
+.logo{
+    position:absolute;
+    left: 0;
+}
+
+.foto-entidad{
+    position:absolute;
+    right: 145;
+}
+
+table,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+.border-right{
+    border-right: 1px solid black;
+  }
+table{
+    width: 100%;
+    font-size: 12px;
+    font-family: "Arial Narrow";
+    font-weight: 100;
+    transform:scaleY(1.2);
+}
+
+table,.no-border{
+    border:0;
+    border-collapse: collapse;
+}
+table,.border-top{
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-collapse: collapse;
+}
+table,.border-bottom{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-collapse: collapse;
+}
+
+table,.border-bottom-top{
+    border-left: 0;
+    border-right: 0;
+    border-collapse: collapse;
+}
+
+
+table,.border-left{
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    border-collapse: collapse;
+}
+table,.border-right{
+    border-bottom: 0;
+    border-left: 0;
+    border-top: 0;
+    border-collapse: collapse;
+}
+.divide{
+    height: 3px;
+}
+.color-blue{
+    color: blue !important;
+}
+
+.d-client{
+    font-size: 0.9rem;
+    margin-top: -3.5mm;
+    margin-left:11mm;
+}
+
+.d-description{
+    font-size: 0.87rem;
+    margin-top: -3.5mm;
+    margin-left:11mm;
+}
+
+.text-de-top {
+    text-decoration: overline;
+}

@@ -1,0 +1,78 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=5.6.4",
+        "barryvdh/laravel-cors": "^0.10.0",
+        "barryvdh/laravel-dompdf": "^0.8.0",
+        "dompdf/dompdf": "^0.8",
+        "elibyy/tcpdf-laravel": "^5.4",
+        "guzzlehttp/guzzle": "^6.3",
+        "laravel/framework": "5.4.*",
+        "laravel/tinker": "~1.0",
+        "league/flysystem-aws-s3-v3": "~1.0",
+        "maatwebsite/excel": "~2.1.0",
+        "mailchimp/transactional": "^1.0",
+        "nesbot/carbon": "*",
+        "phpmailer/phpmailer": "^6.0",
+        "yajra/laravel-oci8": "5.4.*"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Financial\\Routes\\": "routes/"
+
+        },
+        "files": [
+
+            "app/Helpers/HelpersP.php"
+    
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/",
+            "Financial\\Routes\\": "routes/"
+        },
+        "files": [
+
+            "app/Helpers/HelpersP.php"
+    
+        ]
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php72 -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "php72 artisan key:generate"
+        ],
+        "post-install-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postInstall",
+            "php72 artisan optimize"
+        ],
+        "post-update-cmd": [
+            "Illuminate\\Foundation\\ComposerScripts::postUpdate",
+            "php72 artisan optimize"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}

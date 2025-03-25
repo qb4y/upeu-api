@@ -1,0 +1,60 @@
+.tds{
+    border-right: 1px solid #611f3a;
+    /*border-bottom: 1px solid #000;*/
+    border-top: 1px solid #611f3a;
+    /*border-left: 1px solid #000;*/
+        text-align: center;
+        font-size: 12px;
+        padding: 5px;
+        color: #611f3a;
+}
+.tdsl{
+        border-right: 4px solid #611f3a;
+    /*border-bottom: 1px solid #000;*/
+    border-top: 1px solid #611f3a;
+    /*border-left: 1px solid #000;*/
+        text-align: center;
+        font-size: 12px;
+        padding: 5px;
+        color: #611f3a;
+}
+.tds1{
+        border-right: 1px solid #611f3a;
+    /*border-bottom: 1px solid #000;*/
+    border-top: 1px solid #611f3a;
+    border-left: 1px solid #611f3a;
+        text-align: center;
+        font-size: 12px;
+        padding: 5px;
+        color: #611f3a;
+}
+.tdslet{
+        /*border-right: 1px solid #000;*/
+    /*border-bottom: 1px solid #000;*/
+    border-top: 1px solid #611f3a;
+    border-left: 1px solid #611f3a;
+        text-align: center;
+        font-size: 12px;
+        padding: 5px;
+        color: #611f3a;
+}
+.tdsf{
+        border-right: 1px solid #611f3a;
+    border-bottom: 1px solid #611f3a;
+    border-top: 1px solid #611f3a;
+    /*border-left: 1px solid #000;*/
+        text-align: center;
+        font-size: 12px;
+        padding: 5px;
+        color: #611f3a;
+}
+input[type=checkbox]{
+  /* Doble-tamaño Checkboxes */
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari y Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  padding: 10px;
+
+}
+

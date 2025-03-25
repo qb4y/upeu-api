@@ -1,0 +1,1 @@
+FROM docker-images.upeu.edu.pe/apache-php7.2

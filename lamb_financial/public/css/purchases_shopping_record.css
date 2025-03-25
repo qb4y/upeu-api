@@ -1,0 +1,192 @@
+@page { margin: 20px 20px; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #5D6975;
+  text-decoration: underline;
+}
+
+body {
+  
+  position: relative;
+  /*height: 21cm;  
+  width: 29.7cm; */
+  margin: 0 auto; 
+  color: #24446c;
+  background: #FFFFFF; 
+  font-family: Arial, sans-serif; 
+  font-size: 10px; 
+  font-family: Arial;
+}
+
+header {
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+#logo {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#logo img {
+  width: 90px;
+}
+
+h1 {
+  border-top: 1px solid  #5D6975;
+  border-bottom: 1px solid  #5D6975;
+  color: #24446c;
+  font-size: 2.4em;
+  line-height: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+
+#project span {
+  color: #24446c;
+  text-align: center;
+  width: 100%;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 1.4em;
+}
+#project .periodo {
+  color: #24446c;
+  text-align: center;
+  width: 100%;
+  margin-right: 10px;
+  display: inline-block;
+  font-size: 1.4em;
+}
+
+#project div {
+  white-space: nowrap;        
+}
+
+table {
+  /*width: 100%;*/
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+table tr:nth-of-type(2n-1) td {
+  background: #c9e0fc;
+}
+
+table th,
+table td {
+  text-align: center;
+  font-size: 8px; 
+}
+
+table th {
+  padding: 2px 2px;
+  color: white;
+  border-bottom: 1px solid #C1CED9;
+  border-left: 1px solid #C1CED9;
+  border-top: 1px solid #C1CED9;
+  border-right: 1px solid #C1CED9;
+  white-space: nowrap;        
+  font-weight: normal;
+  background: #24446c;
+  font-size: 8px; 
+}
+
+table .w_5 {
+  width: 5px;
+}
+
+table .w_10 {
+  width: 10px;
+}
+
+table .w_15 {
+  width: 15px;
+}
+table .w_20 {
+  width: 20px;
+}
+table .w_25 {
+  width: 25px;
+}
+table .w_40 {
+  width: 40px;
+}
+table .w_50 {
+  width: 50px;
+}
+table .w_70 {
+  width: 70px;
+}
+table .w_100 {
+  width: 100px;
+}
+table .w_150 {
+  width: 150px;
+}
+table .w_170 {
+  width: 170px;
+}
+table .w_200 {
+  width: 200px;
+}
+table .w_300 {
+  width: 300px; 
+}
+
+table .service,
+table .desc {
+  text-align: left;
+}
+table .centro {
+  text-align: center;
+}
+table td {
+  padding: 2px; 
+  text-align: right;
+}
+.izquierda {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+table td.service,
+table td.desc {
+  vertical-align: top;
+}
+
+table td.unit,
+table td.qty,
+table td.total {
+  font-size: 1.2em;
+}
+
+table td.grand {
+  border-top: 1px solid #5D6975;;
+}
+
+#notices .notice {
+  color: #5D6975;
+  font-size: 1.2em;
+}
+
+footer {
+  color: #5D6975;
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #C1CED9;
+  padding: 8px 0;
+  text-align: center;
+}

@@ -1,0 +1,167 @@
+body{
+    font-family: 'Ubuntu',Tahoma,sans-serif;
+    font-size: 12px;
+    margin: 0 auto; 
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-dark{
+    font-weight: bold;
+}
+
+input[type='checkbox'] { 
+    height: 15px;
+    width: 20px;    
+}
+
+#table_ruc{
+    border: 1px solid rgb(56, 121, 241);
+    border-radius: 15px;
+    padding: 8px;
+    width: auto;
+    text-align: center;
+}
+
+#table_ruc tr{
+    height: 23px;
+}
+
+tr#title{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+
+tr#subtitle{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 2px;
+}
+
+
+tr#num{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 2px;
+}
+
+#cabecera table{
+    width: 100%;
+}
+
+#cabecera img{
+    width: auto;
+}
+
+#logo{
+    width: max-content;
+}
+
+table#table_contacto{
+    width: 100%;
+}
+
+#descripcion{
+    margin-top: 16px;
+    text-transform: uppercase;
+}
+
+#observaciones{
+    margin-top: 16px;
+    width: 100%;
+}
+
+#descripcion table{
+    border-collapse: collapse; 
+    width: 100%;
+    font-size: 12px;
+}
+ 
+#descripcion table tbody{
+    border: 1px solid black;
+}
+
+#descripcion table tbody tr {
+    border-bottom: 1pt solid black;
+    height: 25px;
+}
+
+#descripcion table tbody td {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#pago{
+    margin-top: 16px;
+}
+
+#detalle{
+    margin-top: 16px;
+    text-transform: uppercase;
+}
+
+#detalle table thead{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#detalle table{
+    border-collapse: collapse; 
+    width: 100%;
+}
+
+#detalle table tbody{
+    border: 1px solid black;
+}
+
+#detalle table tbody tr {
+    height: 25px;
+    border: 1px solid;
+}
+
+#detalle table tbody td {
+    padding: 4px;
+    border: 1px solid;
+}
+
+#detalle table tfoot tr td.dest{
+    border:1px solid black;
+    padding:3px;
+    font-size: 12px;
+}
+
+#pago table{
+    width: 100%;
+}
+
+#table_firmas{
+    margin-top: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+.caja{
+    width: 90%;
+    height: 55px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+}
